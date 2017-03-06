@@ -1,0 +1,37 @@
+body{
+    background: url("images/brick.jpg");
+    background-size:150px;
+}
+.wall{
+    width: 256px;
+    height:384px;
+    position: absolute;
+    left:50%;
+    transform:translate(-50%);
+}
+.stonebrick{
+    background: url("images/stonebrick.png");
+    background-size:64px;
+    width: 256px;
+    height:192px;
+    position: relative;top:50%;
+
+}
+.cobble{
+    background: url("images/cobble_stone.png");
+    background-size:64px;
+}
+.pick{
+    width:128px;
+    height:128px;
+    position: absolute;
+    left:64px;top:64px;
+}
+.fire{
+    background: url("images/har.gif");
+    background-size:128px;
+}
+.Iron{
+    background: url("images/Iron_bars.png");
+    background-size:64px;
+}

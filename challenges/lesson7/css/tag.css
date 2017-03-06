@@ -1,0 +1,37 @@
+body{
+    background: url("../images/super_blur_back2.jpg");
+    background-position: 30% 40%;
+    background-size: cover;
+}
+.ui.vertical.segment.all-of{
+    width: 600px;
+    height:400px;
+    position: relative;
+    left:50%;top:50%;
+    transform:translate(-50%,-50%);
+}
+.inverted.red.five.wide.column{
+    background: url("../images/red_regi.jpg");
+    height:400px;
+}
+.ui.basic.vertical.segment.login-banner{
+    text-align: center;
+    margin-top: 50%;
+}
+.eleven.wide.column{
+    background: white;
+    height:400px;
+}
+a.top-tag{
+    float:right;
+    color:red;
+    margin-right:20px;
+}
+.ui.basic.vertical.segment.input-card{
+    margin:60px 10px 10px 0;
+}
+.ui.fluid.input{
+    margin:10px;
+    border:1px solid rgb(233, 118, 114);
+    border-radius:5px;
+}

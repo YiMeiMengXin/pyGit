@@ -1,0 +1,31 @@
+body{
+    background: rgb(223, 220, 218);
+}
+.ui.fitted.three.item.menu{
+    width:600px;
+    position: relative;
+    left:50%;
+    transform:translate(-50%);
+    margin: 30px 0;
+}
+.left.aligned.img-logo{
+    margin-left: 20px;
+}
+.ui.three.column.grid.container{
+    width:60%!important;
+}
+.top-login{
+    float:right;
+}
+.ui.inverted.circular.button{
+    margin:0 20px
+}
+.img-mid{
+    width: 100%;
+    height:200px;
+    background-size: cover!important;
+    background-repeat: no-repeat;
+}
+.ui.basic.vertical.center.aligned.segment.bottom-bt{
+    margin-top: 100px;
+}

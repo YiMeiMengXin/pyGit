@@ -1,0 +1,50 @@
+body{
+    background: url("images/brick.jpg");
+    background-size:150px;
+    margin: 0px;
+}
+
+.ui.segment.bg{
+    height:272px;
+    width:320px;
+    background:blue;
+    border: 8px solid orange;
+    box-sizing: border-box;
+    position: absolute;
+    left:50%;top:50%;
+    transform: translate(-50%,-50%);
+    padding: 0px;
+}
+.flower{
+    width: 64px;
+    height:64px;
+    position: relative;left: 50%;
+    transform:translate(-50%,0);
+    background: url("images/flower.png");
+    background-size: contain;
+}
+.rose{
+    width: 64px;
+    height:64px;
+    background: url("images/rose.png");
+    background-size: contain;
+    position: absolute;
+    left:50%;top:50%;
+    transform:translate(-50%,0);
+}
+.tip{
+    background: blue;
+    width: 64px;
+    height:64px;
+    position: absolute;
+    left:50%;top:50%;
+    transform:translate(-50%,0);
+}
+.box{
+    width: 192px;
+    height:64px;
+    position: relative;left:50%;
+    transform:translate(-50%,0);
+    background: url("images/grass.png");
+    background-size:contain;
+}

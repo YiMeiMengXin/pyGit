@@ -1,0 +1,59 @@
+.ui.basic.vertical.inverted.segment.tp{
+   background: url("../images/banner.png");
+    background-size: cover;
+    height: 600px;
+    box-sizing: border-box;
+}
+h2{
+    font-size: 28px;
+}
+a{
+    color:black;
+}
+.cent{
+    text-align: center;
+}
+.ct{
+    position: absolute;left:50%;top:50%;
+    transform: translate(-50%,-50%);
+}
+.ui.container.midd{
+}
+.ui.inverted.red.circular.button{
+    margin-top: 30px;
+    width: 180px;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+}
+.ui.basic.cent.segment.midt{
+    font-size: 28px;
+    margin:20px 0;
+}
+p.cent{
+    margin:50px 0;
+    font-size: 22px;
+}
+.ui.basic.vertical.segment.bto{
+    background: url("../images/people-say.png");
+    background-size:cover;
+    height:450px;
+}
+.ui.text.image.cc{
+    border: 1px solid rgb(200,120,120);
+    box-sizing: border-box;
+    border-radius:64px;
+    width: 128px;
+    height:128px;
+}
+.cent.hd{
+    margin:12px;
+}
+.ui.circular.button.btom{
+    position: absolute;left:50%;top:100%;
+    transform: translate(-50%,-50%);
+    width: 180px;
+    background: white;
+    color:rgb(200,120,120);
+    border:2px solid red;
+}

@@ -1,0 +1,52 @@
+body{
+    background: url("../images/super_blur_back2.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.ui.segment.mid{
+    width: 600px;
+    height:400px;
+    position: relative;
+    left:50%;top:40%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+.ui.basic.inverted.vertical.segment.lft{
+    height: 400px;
+    width:200px;
+    background: url("../images/red_regi.jpg");
+    background-size: cover;
+    background-position: 60% 80%;
+    float: left;
+}
+.ui.vertical.segment.rt{
+    overflow: hidden;
+    width: 400px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: white;
+}
+.ui.basic.vertical.segment.lbl{
+    margin-top: 50px;
+}
+.ui.fluid.input{
+    margin:20px 0px;
+}
+.ct{
+    text-align: center;
+}
+.relt{
+    position: relative;
+}
+.cent{
+    position: absolute;
+    left:50%;top:30%;
+    transform: translate(-50%,-50%);
+}
+a.tp{
+    position: absolute;
+    left:100%;top:0;
+    color:red;
+    padding: 10px;
+    transform:translateX(-100%);
+}
